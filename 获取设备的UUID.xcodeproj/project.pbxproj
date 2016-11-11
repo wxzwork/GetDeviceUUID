@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81F81F221DD5A4090062A0FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F81F211DD5A4090062A0FD /* main.m */; };
+		81F81F251DD5A4090062A0FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F81F241DD5A4090062A0FD /* AppDelegate.m */; };
+		81F81F281DD5A4090062A0FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F81F271DD5A4090062A0FD /* ViewController.m */; };
+		81F81F2B1DD5A4090062A0FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F81F291DD5A4090062A0FD /* Main.storyboard */; };
+		81F81F2D1DD5A4090062A0FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81F81F2C1DD5A4090062A0FD /* Assets.xcassets */; };
+		81F81F301DD5A4090062A0FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F81F2E1DD5A4090062A0FD /* LaunchScreen.storyboard */; };
+		81F81F3B1DD5A40A0062A0FD /* _____UUIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F81F3A1DD5A40A0062A0FD /* _____UUIDTests.m */; };
+		81F81F461DD5A40A0062A0FD /* _____UUIDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F81F451DD5A40A0062A0FD /* _____UUIDUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81F81F371DD5A40A0062A0FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81F81F151DD5A4090062A0FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81F81F1C1DD5A4090062A0FD;
+			remoteInfo = "获取设备的UUID";
+		};
+		81F81F421DD5A40A0062A0FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81F81F151DD5A4090062A0FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81F81F1C1DD5A4090062A0FD;
+			remoteInfo = "获取设备的UUID";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81F81F1D1DD5A4090062A0FD /* 获取设备的UUID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "获取设备的UUID.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F81F211DD5A4090062A0FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81F81F231DD5A4090062A0FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81F81F241DD5A4090062A0FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81F81F261DD5A4090062A0FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		81F81F271DD5A4090062A0FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		81F81F2A1DD5A4090062A0FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81F81F2C1DD5A4090062A0FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81F81F2F1DD5A4090062A0FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81F81F311DD5A4090062A0FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81F81F361DD5A40A0062A0FD /* 获取设备的UUIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "获取设备的UUIDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F81F3A1DD5A40A0062A0FD /* _____UUIDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UUIDTests.m"; sourceTree = "<group>"; };
+		81F81F3C1DD5A40A0062A0FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81F81F411DD5A40A0062A0FD /* 获取设备的UUIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "获取设备的UUIDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F81F451DD5A40A0062A0FD /* _____UUIDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UUIDUITests.m"; sourceTree = "<group>"; };
+		81F81F471DD5A40A0062A0FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81F81F1A1DD5A4090062A0FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F81F331DD5A40A0062A0FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F81F3E1DD5A40A0062A0FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81F81F141DD5A4090062A0FD = {
+			isa = PBXGroup;
+			children = (
+				81F81F1F1DD5A4090062A0FD /* 获取设备的UUID */,
+				81F81F391DD5A40A0062A0FD /* 获取设备的UUIDTests */,
+				81F81F441DD5A40A0062A0FD /* 获取设备的UUIDUITests */,
+				81F81F1E1DD5A4090062A0FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81F81F1E1DD5A4090062A0FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81F81F1D1DD5A4090062A0FD /* 获取设备的UUID.app */,
+				81F81F361DD5A40A0062A0FD /* 获取设备的UUIDTests.xctest */,
+				81F81F411DD5A40A0062A0FD /* 获取设备的UUIDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81F81F1F1DD5A4090062A0FD /* 获取设备的UUID */ = {
+			isa = PBXGroup;
+			children = (
+				81F81F231DD5A4090062A0FD /* AppDelegate.h */,
+				81F81F241DD5A4090062A0FD /* AppDelegate.m */,
+				81F81F261DD5A4090062A0FD /* ViewController.h */,
+				81F81F271DD5A4090062A0FD /* ViewController.m */,
+				81F81F291DD5A4090062A0FD /* Main.storyboard */,
+				81F81F2C1DD5A4090062A0FD /* Assets.xcassets */,
+				81F81F2E1DD5A4090062A0FD /* LaunchScreen.storyboard */,
+				81F81F311DD5A4090062A0FD /* Info.plist */,
+				81F81F201DD5A4090062A0FD /* Supporting Files */,
+			);
+			path = "获取设备的UUID";
+			sourceTree = "<group>";
+		};
+		81F81F201DD5A4090062A0FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81F81F211DD5A4090062A0FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81F81F391DD5A40A0062A0FD /* 获取设备的UUIDTests */ = {
+			isa = PBXGroup;
+			children = (
+				81F81F3A1DD5A40A0062A0FD /* _____UUIDTests.m */,
+				81F81F3C1DD5A40A0062A0FD /* Info.plist */,
+			);
+			path = "获取设备的UUIDTests";
+			sourceTree = "<group>";
+		};
+		81F81F441DD5A40A0062A0FD /* 获取设备的UUIDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81F81F451DD5A40A0062A0FD /* _____UUIDUITests.m */,
+				81F81F471DD5A40A0062A0FD /* Info.plist */,
+			);
+			path = "获取设备的UUIDUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81F81F1C1DD5A4090062A0FD /* 获取设备的UUID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81F81F4A1DD5A40A0062A0FD /* Build configuration list for PBXNativeTarget "获取设备的UUID" */;
+			buildPhases = (
+				81F81F191DD5A4090062A0FD /* Sources */,
+				81F81F1A1DD5A4090062A0FD /* Frameworks */,
+				81F81F1B1DD5A4090062A0FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "获取设备的UUID";
+			productName = "获取设备的UUID";
+			productReference = 81F81F1D1DD5A4090062A0FD /* 获取设备的UUID.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81F81F351DD5A40A0062A0FD /* 获取设备的UUIDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81F81F4D1DD5A40A0062A0FD /* Build configuration list for PBXNativeTarget "获取设备的UUIDTests" */;
+			buildPhases = (
+				81F81F321DD5A40A0062A0FD /* Sources */,
+				81F81F331DD5A40A0062A0FD /* Frameworks */,
+				81F81F341DD5A40A0062A0FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81F81F381DD5A40A0062A0FD /* PBXTargetDependency */,
+			);
+			name = "获取设备的UUIDTests";
+			productName = "获取设备的UUIDTests";
+			productReference = 81F81F361DD5A40A0062A0FD /* 获取设备的UUIDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81F81F401DD5A40A0062A0FD /* 获取设备的UUIDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81F81F501DD5A40A0062A0FD /* Build configuration list for PBXNativeTarget "获取设备的UUIDUITests" */;
+			buildPhases = (
+				81F81F3D1DD5A40A0062A0FD /* Sources */,
+				81F81F3E1DD5A40A0062A0FD /* Frameworks */,
+				81F81F3F1DD5A40A0062A0FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81F81F431DD5A40A0062A0FD /* PBXTargetDependency */,
+			);
+			name = "获取设备的UUIDUITests";
+			productName = "获取设备的UUIDUITests";
+			productReference = 81F81F411DD5A40A0062A0FD /* 获取设备的UUIDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81F81F151DD5A4090062A0FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = WOSHIPM;
+				TargetAttributes = {
+					81F81F1C1DD5A4090062A0FD = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					81F81F351DD5A40A0062A0FD = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81F81F1C1DD5A4090062A0FD;
+					};
+					81F81F401DD5A40A0062A0FD = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81F81F1C1DD5A4090062A0FD;
+					};
+				};
+			};
+			buildConfigurationList = 81F81F181DD5A4090062A0FD /* Build configuration list for PBXProject "获取设备的UUID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81F81F141DD5A4090062A0FD;
+			productRefGroup = 81F81F1E1DD5A4090062A0FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81F81F1C1DD5A4090062A0FD /* 获取设备的UUID */,
+				81F81F351DD5A40A0062A0FD /* 获取设备的UUIDTests */,
+				81F81F401DD5A40A0062A0FD /* 获取设备的UUIDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81F81F1B1DD5A4090062A0FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F81F301DD5A4090062A0FD /* LaunchScreen.storyboard in Resources */,
+				81F81F2D1DD5A4090062A0FD /* Assets.xcassets in Resources */,
+				81F81F2B1DD5A4090062A0FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F81F341DD5A40A0062A0FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F81F3F1DD5A40A0062A0FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81F81F191DD5A4090062A0FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F81F281DD5A4090062A0FD /* ViewController.m in Sources */,
+				81F81F251DD5A4090062A0FD /* AppDelegate.m in Sources */,
+				81F81F221DD5A4090062A0FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F81F321DD5A40A0062A0FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F81F3B1DD5A40A0062A0FD /* _____UUIDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F81F3D1DD5A40A0062A0FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F81F461DD5A40A0062A0FD /* _____UUIDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81F81F381DD5A40A0062A0FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81F81F1C1DD5A4090062A0FD /* 获取设备的UUID */;
+			targetProxy = 81F81F371DD5A40A0062A0FD /* PBXContainerItemProxy */;
+		};
+		81F81F431DD5A40A0062A0FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81F81F1C1DD5A4090062A0FD /* 获取设备的UUID */;
+			targetProxy = 81F81F421DD5A40A0062A0FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81F81F291DD5A4090062A0FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81F81F2A1DD5A4090062A0FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81F81F2E1DD5A4090062A0FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81F81F2F1DD5A4090062A0FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81F81F481DD5A40A0062A0FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81F81F491DD5A40A0062A0FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81F81F4B1DD5A40A0062A0FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "获取设备的UUID/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.-----UUID";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81F81F4C1DD5A40A0062A0FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "获取设备的UUID/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.-----UUID";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		81F81F4E1DD5A40A0062A0FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "获取设备的UUIDTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.-----UUIDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/获取设备的UUID.app/获取设备的UUID";
+			};
+			name = Debug;
+		};
+		81F81F4F1DD5A40A0062A0FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "获取设备的UUIDTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.-----UUIDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/获取设备的UUID.app/获取设备的UUID";
+			};
+			name = Release;
+		};
+		81F81F511DD5A40A0062A0FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "获取设备的UUIDUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.-----UUIDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "获取设备的UUID";
+			};
+			name = Debug;
+		};
+		81F81F521DD5A40A0062A0FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "获取设备的UUIDUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.-----UUIDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "获取设备的UUID";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81F81F181DD5A4090062A0FD /* Build configuration list for PBXProject "获取设备的UUID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81F81F481DD5A40A0062A0FD /* Debug */,
+				81F81F491DD5A40A0062A0FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81F81F4A1DD5A40A0062A0FD /* Build configuration list for PBXNativeTarget "获取设备的UUID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81F81F4B1DD5A40A0062A0FD /* Debug */,
+				81F81F4C1DD5A40A0062A0FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81F81F4D1DD5A40A0062A0FD /* Build configuration list for PBXNativeTarget "获取设备的UUIDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81F81F4E1DD5A40A0062A0FD /* Debug */,
+				81F81F4F1DD5A40A0062A0FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81F81F501DD5A40A0062A0FD /* Build configuration list for PBXNativeTarget "获取设备的UUIDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81F81F511DD5A40A0062A0FD /* Debug */,
+				81F81F521DD5A40A0062A0FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81F81F151DD5A4090062A0FD /* Project object */;
+}
