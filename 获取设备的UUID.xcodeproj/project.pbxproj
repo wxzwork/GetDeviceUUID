@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8105B1E31DDAAA5E0093C307 /* UUIDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105B1E21DDAAA5E0093C307 /* UUIDManager.m */; };
 		81F81F221DD5A4090062A0FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F81F211DD5A4090062A0FD /* main.m */; };
 		81F81F251DD5A4090062A0FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F81F241DD5A4090062A0FD /* AppDelegate.m */; };
 		81F81F281DD5A4090062A0FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F81F271DD5A4090062A0FD /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		81F81F301DD5A4090062A0FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F81F2E1DD5A4090062A0FD /* LaunchScreen.storyboard */; };
 		81F81F3B1DD5A40A0062A0FD /* _____UUIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F81F3A1DD5A40A0062A0FD /* _____UUIDTests.m */; };
 		81F81F461DD5A40A0062A0FD /* _____UUIDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F81F451DD5A40A0062A0FD /* _____UUIDUITests.m */; };
+		81F81F571DD5A4790062A0FD /* AppKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F81F541DD5A4790062A0FD /* AppKeyChain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8105B1E11DDAAA5E0093C307 /* UUIDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUIDManager.h; sourceTree = "<group>"; };
+		8105B1E21DDAAA5E0093C307 /* UUIDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUIDManager.m; sourceTree = "<group>"; };
+		8105B1E41DDAAFA10093C307 /* 获取设备的UUID.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "获取设备的UUID.entitlements"; sourceTree = "<group>"; };
 		81F81F1D1DD5A4090062A0FD /* 获取设备的UUID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "获取设备的UUID.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F81F211DD5A4090062A0FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		81F81F231DD5A4090062A0FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,8 @@
 		81F81F411DD5A40A0062A0FD /* 获取设备的UUIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "获取设备的UUIDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F81F451DD5A40A0062A0FD /* _____UUIDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UUIDUITests.m"; sourceTree = "<group>"; };
 		81F81F471DD5A40A0062A0FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81F81F531DD5A4790062A0FD /* AppKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppKeyChain.h; sourceTree = "<group>"; };
+		81F81F541DD5A4790062A0FD /* AppKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppKeyChain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +108,13 @@
 		81F81F1F1DD5A4090062A0FD /* 获取设备的UUID */ = {
 			isa = PBXGroup;
 			children = (
+				8105B1E41DDAAFA10093C307 /* 获取设备的UUID.entitlements */,
+				81F81F531DD5A4790062A0FD /* AppKeyChain.h */,
+				81F81F541DD5A4790062A0FD /* AppKeyChain.m */,
 				81F81F231DD5A4090062A0FD /* AppDelegate.h */,
 				81F81F241DD5A4090062A0FD /* AppDelegate.m */,
+				8105B1E11DDAAA5E0093C307 /* UUIDManager.h */,
+				8105B1E21DDAAA5E0093C307 /* UUIDManager.m */,
 				81F81F261DD5A4090062A0FD /* ViewController.h */,
 				81F81F271DD5A4090062A0FD /* ViewController.m */,
 				81F81F291DD5A4090062A0FD /* Main.storyboard */,
@@ -207,7 +219,13 @@
 				TargetAttributes = {
 					81F81F1C1DD5A4090062A0FD = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = BVZZ9S8989;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					81F81F351DD5A40A0062A0FD = {
 						CreatedOnToolsVersion = 8.2;
@@ -274,7 +292,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				81F81F281DD5A4090062A0FD /* ViewController.m in Sources */,
+				81F81F571DD5A4790062A0FD /* AppKeyChain.m in Sources */,
 				81F81F251DD5A4090062A0FD /* AppDelegate.m in Sources */,
+				8105B1E31DDAAA5E0093C307 /* UUIDManager.m in Sources */,
 				81F81F221DD5A4090062A0FD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,7 +444,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "获取设备的UUID/获取设备的UUID.entitlements";
+				DEVELOPMENT_TEAM = BVZZ9S8989;
 				INFOPLIST_FILE = "获取设备的UUID/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.-----UUID";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +458,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "获取设备的UUID/获取设备的UUID.entitlements";
+				DEVELOPMENT_TEAM = BVZZ9S8989;
 				INFOPLIST_FILE = "获取设备的UUID/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.-----UUID";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +533,7 @@
 				81F81F4C1DD5A40A0062A0FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81F81F4D1DD5A40A0062A0FD /* Build configuration list for PBXNativeTarget "获取设备的UUIDTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +542,7 @@
 				81F81F4F1DD5A40A0062A0FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81F81F501DD5A40A0062A0FD /* Build configuration list for PBXNativeTarget "获取设备的UUIDUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +551,7 @@
 				81F81F521DD5A40A0062A0FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

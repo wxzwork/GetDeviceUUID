@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "UUIDManager.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSString *deviceUUid  = [UUIDManager getDeviceID];
+ 
+    NSLog(@"获取设备的UUID：%@",deviceUUid);
+  
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
